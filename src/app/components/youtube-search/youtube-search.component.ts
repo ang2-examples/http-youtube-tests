@@ -24,11 +24,10 @@ let loadingGif: string = ((<any>window).__karma__) ? '' : require('images/loadin
       </div>
 
       <div class="row">
-        search result here
-        <!--<search-result
+        <search-result
           *ngFor="let result of results"
           [result]="result">
-        </search-result>-->
+        </search-result>
       </div>
   </div>
   `
