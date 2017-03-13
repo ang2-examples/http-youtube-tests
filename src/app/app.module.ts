@@ -10,6 +10,7 @@ import { youTubeServiceInjectables } from "./components/youtube-search/youtube.s
 import { YouTubeSearchComponent } from "./components/youtube-search/youtube-search.component"
 import { SearchBoxComponent } from "./components/youtube-search/search-box.component"
 import { SearchResultComponent } from "./components/youtube-search/search-result.component"
+import { PostDeleteHeadersHttpComponent } from "./components/post-delete-headers.component"
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SearchResultComponent } from "./components/youtube-search/search-result
 
     YouTubeSearchComponent,
     SearchBoxComponent,
-    SearchResultComponent
+    SearchResultComponent,
+    PostDeleteHeadersHttpComponent
   ],
   imports: [
     BrowserModule,
